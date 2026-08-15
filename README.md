@@ -1,14 +1,10 @@
 # 안녕하세요, Backend 개발자 박병준입니다.
 
-Java와 Spring Boot를 기반으로  
-**서비스 데이터와 실행 상태를 안정적으로 연결하는 Backend 개발**에 관심을 가지고 있습니다.
+Java와 Spring Boot를 기반으로 Backend 개발을 하고 있습니다.
 
-프로젝트를 통해 REST API 구현을 넘어  
-다중 사용자 데이터 격리, 실시간 상태 관리, Graph DB 동기화,
-AI Planning Server 연동과 같은 Backend 문제를 설계하고 해결했습니다.
-
-특히 최근에는 **Digital Twin 기반 자율 창고 운영 시스템 LARO**에서  
-Warehouse · Robot · Graph 영역과 AI 실행 환경 연동을 담당했습니다.
+최근에는 **Digital Twin 창고 시뮬레이션 프로젝트**에서  
+Warehouse · Robot · Graph API와 사용자별 실행 환경 분리,
+PostgreSQL·Neo4j 데이터 동기화, AI Planning 연동을 담당했습니다.
 
 ---
 
@@ -85,19 +81,6 @@ CI/CD 및 모니터링 흐름을 구성한 프로젝트입니다.
 - CloudWatch 기반 서비스 상태 및 인프라 지표 확인
 
 🔗 https://github.com/pbjun2000/aivle-book-service-aws-review
-
----
-
-## What I Focus On
-
-Backend 개발에서 단순한 기능 구현보다
-
-- **서비스 간 책임을 어떻게 분리할 것인지**
-- **여러 저장소의 데이터 일관성을 어떻게 유지할 것인지**
-- **사용자별 실행 상태와 Resource를 어떻게 격리할 것인지**
-- **외부 AI 서비스의 결과를 실제 서비스 데이터와 어떻게 연결할 것인지**
-
-를 고민하며 구현하고 있습니다.
 
 ---
 
