@@ -13,19 +13,15 @@ PostgreSQL·Neo4j 데이터 동기화, AI Planning 연동을 담당했습니다.
 ### Backend
 
 `Java` `Spring Boot` `Spring Data JPA` `Spring Security`  
-`REST API` `WebSocket / STOMP`
+`REST API`
 
 ### Database
 
-`PostgreSQL` `MySQL` `Redis` `Neo4j`
+`PostgreSQL` `MySQL` `Neo4j`
 
-### Cloud / Infra
+### Infra / Tools
 
-`AWS` `Docker` `ECR` `ECS` `EKS` `CloudWatch`
-
-### Tools
-
-`Git` `GitHub` `Postman`
+`Docker` `Git` `GitHub` `Postman`
 
 ---
 
