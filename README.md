@@ -21,7 +21,7 @@ PostgreSQL·Neo4j 데이터 동기화, AI Planning 연동을 담당했습니다.
 
 ### Infra / Tools
 
-`Docker` `Git` `GitHub` `Postman`
+`AWS` `Docker` `Git` `GitHub` `Postman`
 
 ---
 
