@@ -38,8 +38,7 @@ AI Planning과 경로 최적화를 활용해 다중 로봇의 작업 배정·이
 - Shared Warehouse의 실행 데이터를 복제하여 USER / GUEST별 독립적인 Simulation 환경 구성
 - Warehouse Resource 소유권 검증 및 사용자별 데이터 접근 제어
 - PostgreSQL을 기준 데이터로 두고 `AFTER_COMMIT` 이후 Neo4j를 동기화하는 Graph Sync 구조 구현
-- AI 서버의 작업 계획을 Backend Task · Robot Plan · Simulation 실행 데이터와 연동
-- 장애물 발생 시 기존 실행 상태를 기반으로 경로를 다시 계산하는 동적 재계획 흐름 구현
+- AI Planning에 필요한 Warehouse Graph API와 창고·로봇 데이터 연동
 
 #### 프로젝트 결과
 
