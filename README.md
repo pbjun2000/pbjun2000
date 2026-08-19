@@ -27,8 +27,9 @@ PostgreSQL·Neo4j 데이터 동기화 및 AI Planning 서버와의 연동을 담
 
 ## 📌 Featured Projects
 
-### 🤖 LARO — Digital Twin 기반 자율 창고 운영 및 다중 로봇 작업 최적화
+### 🤖 LARO — LLM Autonomous Robot Orchestration
 
+##Digital Twin 기반 자율 창고 운영 및 다중 로봇 작업 최적화 시스템
 **2026.07 ~ 2026.08 | Backend Developer**
 
 창고·재고·로봇 상태를 Digital Twin으로 관리하고,
