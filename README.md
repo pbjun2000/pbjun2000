@@ -57,35 +57,34 @@ https://github.com/kt-aivle-big-project
 
 ---
 
-### ☁️ BookService AWS CI/CD & Monitoring
+### 📚 Book Service — Backend & AWS Deployment
 
 `2026.06` · `Backend / Cloud Project`
 
-React + Spring Boot 서비스를 AWS 환경에 배포하고  
-CI/CD 및 모니터링 흐름을 경험한 팀 프로젝트입니다.
+React 기반 도서 관리 서비스를 Spring Boot REST API로 전환하고,
+AWS 환경에 배포해 CI/CD와 모니터링까지 연결한 팀 프로젝트입니다.
 
-- Docker 기반 Spring Boot 애플리케이션 이미지 구성
-- AWS CodeBuild · ECR 기반 Build 및 Container Image 관리
-- EKS 기반 Container 배포
-- Kubernetes Deployment / Service 구성
-- CloudWatch를 활용한 애플리케이션 로그 및 운영 상태 확인
+#### 담당 및 구현
 
-🔗 https://github.com/pbjun2000/aivle-book-service-aws-review
+* Spring Data JPA 기반 도서 CRUD 및 검색 REST API 구현
+* Entity 직접 반환 대신 DTO 기반 응답 구조 적용
+* `GlobalExceptionHandler`를 활용한 공통 예외 처리
+* Postman을 활용한 정상·예외 API 테스트
+* Docker 기반 Spring Boot 애플리케이션 이미지 구성
+* AWS CodeBuild · ECR 기반 Build 및 Container Image 관리
+* EKS 기반 Container 배포 및 Kubernetes Deployment / Service 구성
+* CloudWatch를 활용한 애플리케이션 로그 및 운영 상태 확인
 
----
+#### Tech Stack
 
-### 📚 AI Book Service
+`Spring Boot` `Spring Data JPA` `Docker` `AWS`
+`CodeBuild` `ECR` `EKS` `Kubernetes` `CloudWatch`
 
-`2026.06` · `Backend Developer`
+🔗 **Backend Development**
+https://github.com/pbjun2000/aivle-ai-book-service-review
 
-React 기반 도서 관리 서비스를 Spring Boot REST API 구조로 전환한 팀 프로젝트입니다.
-
-- Spring Data JPA 기반 도서 CRUD 및 검색 API 구현
-- Entity 직접 반환 대신 DTO 기반 응답 구조 적용
-- `GlobalExceptionHandler`를 활용한 공통 예외 처리
-- Postman을 활용한 정상·예외 API 테스트
-
-🔗 https://github.com/pbjun2000/aivle-ai-book-service-review
+🔗 **AWS CI/CD & Monitoring**
+https://github.com/pbjun2000/aivle-book-service-aws-review
 
 ---
 
@@ -115,6 +114,8 @@ React 기반 도서 관리 서비스를 Spring Boot REST API 구조로 전환한
 
 **Email**  
 [qudwns526@naver.com](mailto:qudwns526@naver.com)
+
+
 
 **Tech Blog**  
 https://qudwns526.tistory.com
