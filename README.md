@@ -35,6 +35,10 @@ PostgreSQL을 기준 데이터로 한 Neo4j 동기화, USER/GUEST별 Simulation 
 창고·재고·로봇 상태를 Digital Twin으로 관리하고,
 AI Planning과 경로 최적화를 활용해 다중 로봇의 작업 배정·이동 계획·재계획을 수행하는 팀 프로젝트입니다.
 
+<p align="center">
+  <img src="./assets/laro-live-view.png" width="100%" alt="LARO Warehouse Live View">
+</p>
+
 #### 담당 및 구현
 
 * Warehouse / Zone / Node / Edge REST API와 관련 도메인 구현
