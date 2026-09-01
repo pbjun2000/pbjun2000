@@ -51,8 +51,7 @@ Digital Twin 환경에서 다중 로봇의 작업 배정·경로 계획·재계�
 - USER / GUEST별 Personal Warehouse 기반 Simulation 실행 환경 분리
 - Simulation 실행 전 Warehouse 소유권 검증을 통한 사용자 실행 환경 접근 분리
 - PostgreSQL Transaction 완료 후 Neo4j Graph를 동기화하는 `AFTER_COMMIT` 기반 Graph Sync 구현
-- AI Planning에서 사용할 Warehouse Graph API 구현
-- AI Planning과 Warehouse Node·Edge 데이터 및 외부 식별자 연동
+- AI Planning에서 사용할 Warehouse Graph API 및 Node·Edge 데이터 제공
 
 #### 주요 기술 결정
 
