@@ -57,15 +57,23 @@ Digital Twin 환경에서 다중 로봇의 작업 배정·경로 계획·재계�
 
 **Simulation 상태 격리**
 
-Shared Warehouse를 여러 사용자가 동시에 사용하면
-Robot·Item·Scenario와 같은 실행 상태가 서로 영향을 줄 수 있다고 판단했습니다.
+초기에는 여러 사용자가 하나의 Shared Warehouse를 대상으로
+Simulation을 실행하는 구조였습니다.
 
-Shared Warehouse는 Template으로 유지하고,
-USER / GUEST별 Personal Warehouse를 생성해
-각 사용자의 Simulation 실행 상태를 분리했습니다.
+여러 사용자가 동시에 실행할 경우 Robot·재고·Scenario 등
+실행 중 변경되는 상태가 서로 섞이면서,
+Simulation Run이 정상적으로 진행되지 않는 상태 충돌이 발생했습니다.
 
-2개월 MVP에서는 명확한 상태 격리를 우선해 Deep Clone 방식을 적용했고,
-규모가 커질 경우 Runtime State 분리 또는 Copy-on-write 방식으로 개선할 수 있다고 판단했습니다.
+단순히 사용자별 조회 조건을 추가하는 것으로는
+실행 상태 자체의 간섭을 막기 어렵다고 판단했습니다.
+
+따라서 Shared Warehouse는 Template으로 유지하고,
+USER / GUEST별 Personal Warehouse를 Deep Clone해
+각 사용자가 독립된 Warehouse 환경에서 Simulation을 실행하도록 변경했습니다.
+
+2개월 MVP에서는 명확한 실행 상태 격리를 우선했으며,
+규모가 커질 경우 Runtime State 분리 또는 Copy-on-write 방식으로
+복제 비용을 줄이는 방향을 고려했습니다.
 
 **PostgreSQL / Neo4j 역할 분리**
 
