@@ -4,7 +4,7 @@
 
 Java·Spring Boot 기반 Backend 개발을 중심으로
 REST API, 사용자별 Simulation 실행 환경 분리,
-PostgreSQL–Neo4j Graph Sync와 AI Planning용 Warehouse Graph API를 구현했습니다.
+PostgreSQL–Neo4j Graph Sync, Redis/WebSocket 기반 상태 전달을 구현했습니다.
 
 기능 구현에 그치지 않고, 데이터와 실행 흐름을 따라 문제의 원인을 찾고 더 적절한 구조를 고민합니다.
 
