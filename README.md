@@ -1,28 +1,33 @@
-# 안녕하세요, 개발자 박병준입니다.
+# 안녕하세요, AI 서비스와 Backend를 개발하는 박병준입니다.
 
-데이터의 흐름을 따라 문제의 원인을 찾는 개발자입니다.
+데이터의 흐름을 따라 문제의 원인을 찾고,  
+**Python 기반 LLM·RAG·Agent 서비스와 Java/Spring Boot Backend를 함께 경험했습니다.**
 
-Java·Spring Boot 기반 Backend 개발을 중심으로
-REST API, 사용자별 Simulation 실행 환경 분리,
-PostgreSQL–Neo4j Graph Sync, Redis/WebSocket 기반 상태 전달을 구현했습니다.
+LangGraph 기반 Agent Workflow와 Chroma 기반 RAG Pipeline을 실습했고,  
+LARO 프로젝트에서는 Backend 데이터와 AI Planning이 연결되는 구조를 구현했습니다.
 
-기능 구현에 그치지 않고, 데이터와 실행 흐름을 따라 문제의 원인을 찾고 더 적절한 구조를 고민합니다.
+기능 구현에 그치지 않고,  
+데이터가 생성·저장·전달되는 흐름과 기술 선택의 이유, 실패 상황까지 확인하며 개발합니다.
 
 ---
 
 ## 🛠 Tech Stack
 
+### AI / Data
+
+`Python` `LangChain` `LangGraph` `RAG` `Chroma` `Pandas` `scikit-learn` `Keras`
+
 ### Backend
 
-`Java` `Spring Boot` `Spring Data JPA` `Spring Security` `REST API`
+`Java` `Spring Boot` `Spring Data JPA` `REST API`
 
-### Database / Cache
+### Database / Data Store
 
-`PostgreSQL` `MySQL` `Neo4j` `Redis`
+`PostgreSQL` `Neo4j` `Redis`
 
-### Infra / Tools
+### Cloud / Infra
 
-`Docker` `AWS` `Git` `GitHub` `Postman`
+`Docker` `AWS` `EKS` `Kubernetes` `CloudWatch`
 
 ---
 
