@@ -65,8 +65,6 @@ Digital Twin 환경에서 다중 로봇 작업을 수행하는 B2B형 자율 창
 
 🔗 [Backend Portfolio](https://github.com/pbjun2000/digital-twin-warehouse-backend)
 
-🔗 [Team Project](github.com/kt-aivle-big-project)
-
 ---
 
 ### 📚 AI Books — AI 표지 생성 기반 창작·도서 관리 플랫폼
