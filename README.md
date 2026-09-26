@@ -99,8 +99,5 @@ Digital Twin 환경에서 다중 로봇 작업을 수행하는 B2B형 자율 창
 **Email**  
 [qudwns526@naver.com](mailto:qudwns526@naver.com)
 
-**GitHub**  
-[github.com/pbjun2000](https://github.com/pbjun2000)
-
 **Tech Blog**  
 [qudwns526.tistory.com](https://qudwns526.tistory.com)
